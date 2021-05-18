@@ -31,7 +31,7 @@ module.exports = {
       {
         name: 'University of Central University',
         description: 'Graduate Teaching Assistant, CAP5610 - Computer Graphics, Fall 2019',
-        /*link: 'https://github.com/RyanFitzgerald/devfolio'*/,,
+        /*link: 'https://github.com/RyanFitzgerald/devfolio'*/,
       },
       {
         name: 'Capgemini',
