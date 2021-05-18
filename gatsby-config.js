@@ -15,8 +15,41 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/ananta-prasannakumar-3ba57599/`,
     // Content of the About Me section
-    about: `Passionate and detail-oriented ECE grad student, focusing on Machine Learning, Computer Vision and Computer Graphics, looking for full-time roles. Generalized Specialist, eager to learn, and ability to break down complex problems and translate into modular and robust solution.`,
-    // Optional: List your projects, they must have `name` and `description`. `link` is optional.
+    about: `Passionate and detail-oriented ECE grad student from the University of Central Florida, focusing on Applied Machine Learning for images and text, looking for full-time roles. Generalized Specialist, eager to learn, and ability to break down complex problems and translate into modular and robust solution.`,
+    // Optional: List your projects, they must have `name` and `description`. `link` is optional
+    experience: [
+      {
+        name: 'University of Central University',
+        description: 'Graduate Research Assistant, August 2019 - Present',
+        /*link: 'https://github.com/RyanFitzgerald/devfolio'*/,,
+      },
+      {
+        name: 'University of Central University',
+        description: 'Graduate Teaching Assistant, CAP4720 - Computer Graphics, Fall 2020,
+        /*link: 'https://github.com/RyanFitzgerald/devfolio'*/,,
+      },
+      {
+        name: 'University of Central University',
+        description: 'Graduate Teaching Assistant, CAP5610 - Computer Graphics, Fall 2019,
+        /*link: 'https://github.com/RyanFitzgerald/devfolio'*/,,
+      },
+      {
+        name: 'Capgemini',
+        description: 'Senior Analyst, July 2016 - June 2017',
+        /*link: 'https://github.com/RyanFitzgerald/devfolio'*/,
+      },
+      {
+        name: 'Capgemini',
+        description: 'Analyst, April 2015 - June 2016',
+        /*link: 'https://github.com/RyanFitzgerald/devfolio'*/,
+      },
+      {
+        name: 'Capgemini',
+        description: 'Analyst Intern, December 2014 - March 2015',
+        /*link: 'https://github.com/RyanFitzgerald/devfolio'*/,
+      },
+    ],
+    
     projects: [
       {
         name: 'Devfolio',
@@ -37,24 +70,7 @@ module.exports = {
         link: 'https://github.com/RyanFitzgerald/devfolio',
       },
     ],
-    // Optional: List your experience, they must have `name` and `description`. `link` is optional.
-    experience: [
-      {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-      {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-      {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-    ],
+
     // Optional: List your skills, they must have `name` and `description`.
     skills: [
       {
