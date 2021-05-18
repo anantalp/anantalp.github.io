@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     // Site URL for when it goes live
-    siteUrl: `anantalp.github.io`,
+    siteUrl: `https://nervous-aryabhata-26773c.netlify.app/`,
     // Your Name
     name: 'Ryan Fitzgerald',
     // Main Site Title
