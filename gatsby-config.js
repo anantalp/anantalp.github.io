@@ -25,12 +25,12 @@ module.exports = {
       },
       {
         name: 'University of Central University',
-        description: 'Graduate Teaching Assistant, CAP4720 - Computer Graphics, Fall 2020,
+        description: 'Graduate Teaching Assistant, CAP4720 - Computer Graphics, Fall 2020',
         /*link: 'https://github.com/RyanFitzgerald/devfolio'*/,,
       },
       {
         name: 'University of Central University',
-        description: 'Graduate Teaching Assistant, CAP5610 - Computer Graphics, Fall 2019,
+        description: 'Graduate Teaching Assistant, CAP5610 - Computer Graphics, Fall 2019',
         /*link: 'https://github.com/RyanFitzgerald/devfolio'*/,,
       },
       {
