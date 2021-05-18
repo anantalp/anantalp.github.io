@@ -21,32 +21,32 @@ module.exports = {
       {
         name: 'University of Central University',
         description: 'Graduate Research Assistant, August 2019 - Present',
-        /*link: 'https://github.com/RyanFitzgerald/devfolio'*/,
+        /*link: 'https://github.com/RyanFitzgerald/devfolio'*/
       },
       {
         name: 'University of Central University',
         description: 'Graduate Teaching Assistant, CAP4720 - Computer Graphics, Fall 2020',
-        /*link: 'https://github.com/RyanFitzgerald/devfolio'*/,
+        /*link: 'https://github.com/RyanFitzgerald/devfolio'*/
       },
       {
         name: 'University of Central University',
         description: 'Graduate Teaching Assistant, CAP5610 - Computer Graphics, Fall 2019',
-        /*link: 'https://github.com/RyanFitzgerald/devfolio'*/,
+        /*link: 'https://github.com/RyanFitzgerald/devfolio'*/
       },
       {
         name: 'Capgemini',
         description: 'Senior Analyst, July 2016 - June 2017',
-        /*link: 'https://github.com/RyanFitzgerald/devfolio'*/,
+        /*link: 'https://github.com/RyanFitzgerald/devfolio'*/
       },
       {
         name: 'Capgemini',
         description: 'Analyst, April 2015 - June 2016',
-        /*link: 'https://github.com/RyanFitzgerald/devfolio'*/,
+        /*link: 'https://github.com/RyanFitzgerald/devfolio'*/
       },
       {
         name: 'Capgemini',
         description: 'Analyst Intern, December 2014 - March 2015',
-        /*link: 'https://github.com/RyanFitzgerald/devfolio'*/,
+        /*link: 'https://github.com/RyanFitzgerald/devfolio'*/
       },
     ],
     
