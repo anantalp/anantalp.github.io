@@ -9,11 +9,11 @@ module.exports = {
     // Description that goes under your name in main bio
     description: `UCF Graduate Student. Actively seeking full-time positions.`,
     // Optional: Twitter account handle
-    author: `@rfitzio`,
+    author: `@ananta_lp`,
     // Optional: Github account URL
     github: `https://github.com/anantalp`,
     // Optional: LinkedIn account URL
-    linkedin: `https://www.linkedin.com/in/anantapadmanaabha-prasannakumar-3ba57599/`,
+    linkedin: `https://www.linkedin.com/in/ananta-prasannakumar-3ba57599/`,
     // Content of the About Me section
     about: `Passionate and detail-oriented ECE grad student, focusing on Machine Learning, Computer Vision and Computer Graphics, looking for full-time roles. Generalized Specialist, eager to learn, and ability to break down complex problems and translate into modular and robust solution.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
