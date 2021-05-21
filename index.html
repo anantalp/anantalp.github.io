@@ -25,6 +25,9 @@
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="img/favicons/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <!-- jQuery UI css -->
   <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
@@ -37,12 +40,12 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
 
   <!-- FontAwesome icon include -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.js" integrity="sha512-ia48mJh6IXv6baAI07Ib/crgsG/MD4tbSnOndWLo3GSExMhYsn1xPbni40VamCaXWk79t1dxi/JahsqOFazkew==" crossorigin="anonymous"></script>
+  <link src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.js">
 
   <!-- Main local styles -->
   <link rel="stylesheet" href="css/main.css">
 
-  <title>Jane Smith, PhD</title>
+  <title>Ananta Prasannakumar</title>
 
 </head>
 
@@ -57,31 +60,32 @@
     <div class="row">
       <div class="col-sm-4">
         <div class="text-center">
-          <img id="my-photo" src="https://unsplash.it/500/500" class="rounded img-fluid shadow-sm" width="100%" alt="Image of Jane Smith">
+          <img id="my-photo" src="img/ananta.png" class="rounded img-fluid shadow-sm" width="100%" alt="Image of Ananta Prasannakumar">
         </div>
 
         <table class="table mt-4" id="contact-table">
           <tbody>
-            <tr class="d-flex">
-              <td class="col-2"><i class="fa fa-fw fa-lg fa-home"></i></td>
-              <td class="col-10">Building 123<br>
-                James Trickington University<br>
-                Anytown, CA 99999-1234<br>
-                <span class="pointer"><a class="bright-blue" role="button" data-toggle="modal" data-target="#modal-map-to-office"><i class="fa fa-map-marker-alt mr-2"></i>Map</a></span>
-              </td>
+		    <tr class="d-flex">
+              <td class="col-4"><i class="fa fa-map-marker"></i></td>
+              <td class="col-5">Orlando, FL</td>
             </tr>
+		    <tr class="d-flex">
+              <td class="col-4"><i class="fa fa-at"></i></td>
+              <td class="col-5"><a href="mailto:anantalp@knights.ucf.edu">E-mail</a></td>
+            </tr> 
             <tr class="d-flex">
-              <td class="col-2"><i class="fa fa-fw fa-lg fa-phone"></i></td>
-              <td class="col-10"><a href="tel:9991234567">(999) 123-4567</a></td>
+              <td class="col-4"><i class="fa fa-linkedin-square"></i></td>
+              <td class="col-5"><a href="https://www.linkedin.com/in/ananta-prasannakumar-3ba57599/">LinkedIn</a></td>
             </tr>
-            <tr class="d-flex">
-              <td class="col-2"><i class="fa fa-lg fa-at"></i></td>
-              <td class="col-10"><a href="mailto:me@school.edu">me@school.edu</a></td>
+			<tr class="d-flex">
+              <td class="col-4"><i class="fa fa-github"></i></td>
+              <td class="col-5"><a href="https://github.com/anantalp/">Github</a></td>
             </tr>
-            <tr class="d-flex">
-              <td class="col-2"><i class="fa fa-lg fa-calendar-plus"></i></td>
-              <td class="col-10"><a href="https://calendly.com" target="_blank">Appointment</a><br><small class="text-muted">30 min each</small></td>
+			<tr class="d-flex">
+              <td class="col-4"><i class="fa fa-twitter"></i></td>
+              <td class="col-5"><a href="https://twitter.com/ananta_lp">Twitter</a></td>
             </tr>
+			
           </tbody>
         </table>
 
@@ -90,10 +94,10 @@
 
       <div class="col-sm-8 px-4">
 
-        <h1>Jane Smith</h1>
+        <h1>Ananta Prasannakumar</h1>
 
-        <p class="position-title mt-2 mb-1">Title, School or Organization</p>
-        <p class="position-title mt-0 mb-4">Optional Second Title, School or Organization</p>
+        <p class="position-title mt-2 mb-1">Graduate Student in Electrical Engineering, University of Central Florida</p>
+        <p class="position-title mt-0 mb-4">Formerly Software Engineer, Capgemini</p>
 
         <p>Jane Smith is the {{title}} for the {{organization}}. There she {{does things}}. She is particularly focused on {{various activities}}.</p>
 
@@ -127,18 +131,13 @@
 
         <ul id="education" class="list-group">
           <li class="list-group-item">
-            <p><strong>PhD, Field</strong><br>
-              <span class="university">James Trickington University</span>
+            <p><strong>Master of Science, Electrical Engineering (Machine Learning and Computer Vision)</strong><br>
+              <span class="university">University of Central Florida</span>
             </p>
           </li>
           <li class="list-group-item">
-            <p><strong>MA, Field (Concentration)</strong><br>
-              <span class="university">James Trickington University</span>
-            </p>
-          </li>
-          <li class="list-group-item">
-            <p><strong>BA, Field (Majors)</strong><br>
-              <span class="university">James Trickington University</span>
+            <p><strong>Bachelor  of Engineering, Electrical Engineering (Signal Processing)</strong><br>
+              <span class="university">Visvesvaraya Technological University</span>
             </p>
           </li>
         </ul>
