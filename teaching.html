@@ -115,6 +115,27 @@
   <!-- Main local scripts -->
   <script src="js/main.js"></script>
 
+  <script>
+    $(function() {
+
+      // Load the top page navbar
+      $("#page-navbar").load("page-navbar.html", function() {
+
+        $("#me").removeClass("active");
+        $("#teaching").addClass("active");
+
+      });
+
+
+      // Redirect to URL on data-url attr
+      $(document).on("click", "[data-url]", function() {
+        var url = $(this).data("url");
+        window.open(url);
+      });
+
+    });
+    // document.ready
+  </script>
   
 </body>
 
