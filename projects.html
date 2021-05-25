@@ -42,7 +42,7 @@
   <!-- Main local styles -->
   <link rel="stylesheet" href="css/main.css">
 
-  <title>AP | Projects</title>
+  <title>AP | Teaching</title>
 
 </head>
 
@@ -52,22 +52,11 @@
   <div id="page-navbar"></div>
 
   <!-- main wrapper div -->
-  <div class="container px-4" id="wrapper">
+  <div class="container" id="wrapper">
 
-    <div class="row mx-3">
+    <div class="row mx-4" id="teaching-section">
+
       <div class="col-sm-12">
-        <h1>Projects</h1>
-        <p>You may explore the interesting projects that I have pursued:</p>
-      </div>
-      <!-- col-sm-12 -->
-      </div>
-      <!-- col-sm-10 -->
-    </div>
-    <!-- .row -->
-
-    <div class="row" id="projects-div">
-
-	  <div class="col-sm-12">
         <h1 id="page-lead">Teaching</h1>
 		<p> Below are the courses where I have served as a Teaching Assistant:</p>
 		
@@ -82,7 +71,7 @@
         </ul>
         
       </div>
-
+      <!-- .col-sm-12       -->
     </div>
     <!-- .row -->
 
@@ -117,9 +106,6 @@
   <!-- jquery ui -->
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
-  <!-- Mustache.js -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/3.0.1/mustache.min.js"></script>
-
   <!-- popper minified -->
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 
@@ -128,7 +114,6 @@
 
   <!-- Main local scripts -->
   <script src="js/main.js"></script>
-  <script src="js/projects.js"></script>
 
   <script>
     $(function() {
@@ -137,16 +122,24 @@
       $("#page-navbar").load("page-navbar.html", function() {
 
         $("#me").removeClass("active");
-        $("#projects").addClass("active");
+        $("#teaching").addClass("active");
 
       });
 
 
-      // Redirect to URL on data-url attr
-      $(document).on("click", "[data-url]", function() {
-        var url = $(this).data("url");
-        window.open(url);
+      // plus/minus toggler on opening/closing the accordions
+      $(".btn-link").on("click", function(e) {
+        // alert($(this).prev().find("i").text());
+        if ( $(this).prev().find("i").hasClass("fa-plus") && $(this).prev().find("i").hasClass("fa-rotate-45") ) {
+          $(this).prev().find("i").removeClass("fa-rotate-45");
+        } else {
+          $(this).prev().find("i").addClass("fa-rotate-45");
+        }
+
       });
+
+      // Open all accordions at once
+
 
     });
     // document.ready
