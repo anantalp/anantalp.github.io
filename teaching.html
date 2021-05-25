@@ -127,19 +127,11 @@
       });
 
 
-      // plus/minus toggler on opening/closing the accordions
-      $(".btn-link").on("click", function(e) {
-        // alert($(this).prev().find("i").text());
-        if ( $(this).prev().find("i").hasClass("fa-plus") && $(this).prev().find("i").hasClass("fa-rotate-45") ) {
-          $(this).prev().find("i").removeClass("fa-rotate-45");
-        } else {
-          $(this).prev().find("i").addClass("fa-rotate-45");
-        }
-
+      // Redirect to URL on data-url attr
+      $(document).on("click", "[data-url]", function() {
+        var url = $(this).data("url");
+        window.open(url);
       });
-
-      // Open all accordions at once
-
 
     });
     // document.ready
