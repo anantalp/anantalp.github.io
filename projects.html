@@ -138,24 +138,16 @@
       $("#page-navbar").load("page-navbar.html", function() {
 
         $("#me").removeClass("active");
-
-
-      });
-
-
-      // plus/minus toggler on opening/closing the accordions
-      $(".btn-link").on("click", function(e) {
-        // alert($(this).prev().find("i").text());
-        if ( $(this).prev().find("i").hasClass("fa-plus") && $(this).prev().find("i").hasClass("fa-rotate-45") ) {
-          $(this).prev().find("i").removeClass("fa-rotate-45");
-        } else {
-          $(this).prev().find("i").addClass("fa-rotate-45");
-        }
+        $("#projects").addClass("active");
 
       });
 
-      // Open all accordions at once
 
+      // Redirect to URL on data-url attr
+      $(document).on("click", "[data-url]", function() {
+        var url = $(this).data("url");
+        window.open(url);
+      });
 
     });
     // document.ready
