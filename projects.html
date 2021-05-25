@@ -42,7 +42,7 @@
   <!-- Main local styles -->
   <link rel="stylesheet" href="css/main.css">
 
-  <title>AP | Projects</title>
+  <title>Jane Smith, PhD</title>
 
 </head>
 
@@ -56,12 +56,28 @@
 
     <div class="row mx-3">
       <div class="col-sm-12">
-        <h1>Notable Projects</h1>
-        <p>Below are my project portfolio. You may also visit my github profile for more details:</p>
+        <h1>Projects</h1>
+        <p>My recent work has involved {{things I've done}}.</p>
       </div>
       <!-- col-sm-12 -->
 
-      
+      <div class="col-sm-10 offset-sm-1">
+        <form id="search-box">
+          <div class="form-group">
+            <div class="input-group border-0">
+              <div class="input-group-prepend">
+                <span class="input-group-text border-0"><i class="fa fa-search fa-fw fa-2x graphite"></i></span>
+              </div>
+              <input type="text" class="form-control form-control-lg" aria-label="" name="brainstorm-search" id="search-input" placeholder="Search projects">
+              <div class="input-group-append" id="search-refresh-button">
+                <span class="input-group-text border-0"><i class="fa fa-sync-alt opacity-half bright-blue fa-fw fa-2x pointer sm-del"></i></span>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+      <!-- .col-sm-8 -->
+
       <div class="col-sm-10 offset-sm-1 text-center" id="filter-buttons">
 
         <!-- Filter buttons -->
