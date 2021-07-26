@@ -18,7 +18,8 @@
   --lightest-gray: #e9ecef;
   --safron: #f4c430; 
   --safron-two: #ff9933;
-  --yellow: ffff00;
+  --yellow: rgb(255,255,0);
+  --light-green: rgb(50,205,50);
 }
 
 html {
@@ -39,7 +40,7 @@ p, ul, li, table, tr, td, dd, dt {
 }
 
 h1, h2, h3 {
-  color: var(--safron-two) !important;
+  color: var(--safron) !important;
 }
 
 h4, h5, h6 {
@@ -275,7 +276,7 @@ h3:after {
 
 /* Navbar -------------------------------------------- */
 .bg-navbar {
-  background: var(--nd-blue);
+  background: var(--light-green);
 }
 
 #page-navbar nav {
