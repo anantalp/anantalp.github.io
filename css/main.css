@@ -16,6 +16,7 @@
   --chocolate: rgb(210, 105, 30);
   --maroon: maroon;
   --lightest-gray: #e9ecef;
+  --safron: #ff9933;
 }
 
 html {
@@ -36,7 +37,7 @@ p, ul, li, table, tr, td, dd, dt {
 }
 
 h1, h2, h3 {
-  color: var(--maroon) !important;
+  color: var(--safron) !important;
 }
 
 h4, h5, h6 {
